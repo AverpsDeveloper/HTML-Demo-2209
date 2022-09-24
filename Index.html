@@ -72,14 +72,66 @@
             <td>Trent</td>
         </tr>
     </table>
-<!-- HTML Entities -->
-<p>Copyright of idk man 2022 &copy;</p>
-<!-- Style Attributes -->
-<p style="color:bisque;background-color:rgb(17, 229, 215);width:250px;height:250px;">
-    bla bla bla bla bla
-</p>
+    <!-- HTML Entities -->
+    <p>Copyright of idk man 2022 &copy;</p>
+    <!-- Style Attributes -->
+    <p style="color:bisque;background-color:rgb(17, 229, 215);width:250px;height:250px;">
+        bla bla bla bla bla
+    </p>
 
+    <div style="height:250px;background-color: salmon;">
+    </div>
+    <p style="background-color:blue;width:150px;height:259;">
+        lorem <span style="color:red" ;>ipsum</span>
+    </p>
+    <!-- forms -->
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="name-data" placeholder="name" required>
+        <br>
+        <label for="descriptions">Descriptions:</label>
+        <textarea name="desc-data" id="descriptions" style="height:50px"></textarea>
 
+        <br>
+        <label for="date">date:</label>
+        <input type="date" id="date">
+        <br>
+        <label for="file">file:</label>
+        <input type="file" id="file">
+        <br>
+        <label for="selection">Selection:</label>
+        <select name="select-data" id="selection">
+            <option value="a">apple</option>
+            <option value="b">banana</option>
+            <option value="c">c</option>
+        </select>
+        <br>
+        <input type="radio" value="1" name="fruitType">
+        <label for="fruitType"> hard skin</label>
+        <br>
+        <input type="radio" value="2" name="fruitType">
+        <label for="fruitType"> soft skin</label>
+        <br>
+        <input type="radio" value="3" name="fruitType">
+        <label for="fruitType"> rough skin</label>
+        <br>
+        <label for="selection">Selection:</label>
+        <select name="select-data" id="selection" multiple>
+            <option value="a">apple</option>
+            <option value="b">banana</option>
+            <option value="c">cherry</option>
+        </select>
+        <br>
+        <input type="checkbox">
+        <label>Pungent</label>
+        <br>
+        <input type="checkbox">
+        <label>Pungent</label>
+        <br>
+        <input type="checkbox">
+        <label>Pungent</label>
+        <button>Click me!</button>
+    </form>
 </body>
 
 </html>

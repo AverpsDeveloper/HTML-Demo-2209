@@ -1,0 +1,20 @@
+p {
+    background-color: salmon;
+
+
+}
+
+.bg-color-1 {
+    background-color: aquamarine;
+}
+
+.text-color-1 {
+    color: red;
+    font-family: sans-serif;
+    front-size: 18px;
+    font-weight: 500;
+}
+
+#main-colors {
+    background-color: violet
+}
